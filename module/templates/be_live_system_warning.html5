@@ -1,0 +1,6 @@
+<div id="live-system-warning">
+	<p class="tl_error tl_permalert">
+		<?php if ($this->url): ?><a href="<?= $this->url; ?>" class="tl_submit"><?= $GLOBALS['TL_LANG']['live_system_warning']['button']; ?></a><?php endif; ?>
+		<?= $GLOBALS['TL_LANG']['live_system_warning']['message'] ?>
+	</p>
+</div>

@@ -1,0 +1,41 @@
+{
+	"name":"bit3/contao-live-system-warning",
+	"description":"Shows a warning message in the backend, when you are logged in into the live system.",
+	"type":"contao-module",
+	"license":"LGPL-3.0+",
+	"authors":[
+		{
+			"name":"Tristan Lins",
+			"email":"tristan.lins@bit3.de",
+			"homepage":"http://bit3.de",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		"email":"info@bit3.de",
+		"issues":"https://github.com/bit3/contao-live-system-warning/issues",
+		"irc":"irc://irc.freenode.org/contao.dev",
+		"source":"https://github.com/bit3/contao-live-system-warning"
+	},
+	"require":{
+		"php":">=5.3",
+		"contao/core": ">=2.11.11,<3.3"
+	},
+	"autoload":{
+		"psr-0":{
+			"Bit3\\Contao\\LiveSystemWarning": "src/"
+		}
+	},
+	"extra": {
+		"contao": {
+			"sources": {
+				"assets": "assets/live-system-warning",
+				"module": "system/modules/live-system-warning"
+			}
+		},
+		"branch-alias": {
+			"dev-master": "1.0.x-dev",
+			"dev-develop": "1.1.x-dev"
+		}
+	}
+}

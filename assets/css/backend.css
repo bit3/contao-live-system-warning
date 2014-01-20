@@ -1,0 +1,13 @@
+#live-system-warning {
+	width: 958px;
+	margin: 18px auto;
+	text-align: left;
+	background: #fff;
+	border: 1px solid #bbb;
+	border-radius: 3px;
+	box-shadow: 0 3px 6px #ccc;
+}
+#live-system-warning .tl_permalert {
+	margin: 1px;
+	border: none;
+}
